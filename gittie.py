@@ -12,5 +12,6 @@ def add(a, b):
     return a + b
 
 
-def shout():
+def shout(msg):
+    print(msg.upper())
     print("Shout!")
